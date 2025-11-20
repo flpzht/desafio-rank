@@ -4,7 +4,7 @@
 ![Licença](https://img.shields.io/badge/Licença-MIT-blue)
 ![Feito com JavaScript](https://img.shields.io/badge/Feito%20com-JavaScript-yellow)
 
-<img src="https://raw.githubusercontent.com/flpcs/desafio-rank/main/assets/ranked-banner.png" alt="Banner do Projeto" width="100%"/>
+<img src="https://github.com/flpzht/desafio-rank/blob/main/heroi-de-armadura.png" alt="Banner do Projeto" width="35%"/>
 
 
 ## 📘 Descrição
@@ -74,7 +74,7 @@ Bons estudos e boa codificação! 😉
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-yellow)
 
-<img src="https://raw.githubusercontent.com/flpcs/desafio-rank/main/assets/ranked-banner.png" alt="Project Banner" width="100%"/>
+<img src="https://github.com/flpzht/desafio-rank/blob/main/heroi-de-armadura.png" alt="Banner do Projeto" width="35%"/>
 
 ## 📘 Description
 
