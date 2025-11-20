@@ -25,7 +25,7 @@ Criar uma função que receba como parâmetros a quantidade de **vitórias** e *
 
 saldo = vitórias - derrotas
 
-# Com base no número de vitórias, o jogador será classificado em um dos seguintes níveis:
+### Com base no número de vitórias, o jogador será classificado em um dos seguintes níveis:
 | Vitórias             | Nível     |
 |----------------------|-----------|
 | Menor que 10         | Ferro     |
@@ -40,28 +40,26 @@ saldo = vitórias - derrotas
 
 ## 🖥️ Código
 
-function rankeada(vitoria, derrota) {
-    let saldoRankeada = vitoria - derrota;
-    let nivelRankeada = '';
+    function rankeada(vitoria, derrota) 
+    {
+        let saldoRankeada = vitoria - derrota;
+        let nivelRankeada = '';
+        if (vitoria < 10) nivelRankeada = 'Ferro';
+        if (vitoria >= 10 && vitoria <= 20) nivelRankeada = 'Bronze';
+        if (vitoria >= 20 && vitoria <= 50) nivelRankeada = 'Prata';
+        if (vitoria >= 50 && vitoria <= 80) nivelRankeada = 'Ouro';
+        if (vitoria >= 80 && vitoria <= 90) nivelRankeada = 'Diamante';
+        if (vitoria >= 90 && vitoria <= 100) nivelRankeada = 'Lendário';
+        if (vitoria >= 101) nivelRankeada = 'Imortal';
 
-    if (vitoria < 10) nivelRankeada = 'Ferro';
-    if (vitoria >= 10 && vitoria <= 20) nivelRankeada = 'Bronze';
-    if (vitoria >= 20 && vitoria <= 50) nivelRankeada = 'Prata';
-    if (vitoria >= 50 && vitoria <= 80) nivelRankeada = 'Ouro';
-    if (vitoria >= 80 && vitoria <= 90) nivelRankeada = 'Diamante';
-    if (vitoria >= 90 && vitoria <= 100) nivelRankeada = 'Lendário';
-    if (vitoria >= 101) nivelRankeada = 'Imortal';
-
-    return `O Herói está com saldo de ${saldoRankeada} e está no nível ${nivelRankeada}.`;
-}
-
-console.log(rankeada(32, 15));
+        return `O Herói está com saldo de ${saldoRankeada} e está no nível ${nivelRankeada}.`;
+    }
+    console.log(rankeada(32, 15));
 
 
 ## 📤 Saída Esperada
 
 O Herói está com saldo de 17 e está no nível Prata.
-
 
 
 Bons estudos e boa codificação! 😉
@@ -96,7 +94,7 @@ Create a function that receives the number of **wins** and **losses** as paramet
 
 balance = wins - losses
 
-# Based on the number of wins, the player will be classified into one of the following levels:
+### Based on the number of wins, the player will be classified into one of the following levels:
 | Wins                 | Level     |
 |----------------------|-----------|
 | Less than 10         | Iron      |
@@ -109,33 +107,28 @@ balance = wins - losses
 
 
 ## 🖥️ Code
-function ranked(victory, defeat) {
-    let rankedBalance = victory - defeat;
-    let rankedLevel = '';
 
-    if (victory < 10) rankedLevel = 'Iron';
-    if (victory >= 10 && victory <= 20) rankedLevel = 'Bronze';
-    if (victory >= 20 && victory <= 50) rankedLevel = 'Silver';
-    if (victory >= 50 && victory <= 80) rankedLevel = 'Gold';
-    if (victory >= 80 && victory <= 90) rankedLevel = 'Diamond';
-    if (victory >= 90 && victory <= 100) rankedLevel = 'Legendary';
-    if (victory >= 101) rankedLevel = 'Immortal';
-
-    return `The Hero has a balance of ${rankedBalance} and is ranked as ${rankedLevel}.`;
-}
-
-console.log(rankeada(32, 15));
+    function ranked(victory, defeat)
+    {
+        let rankedBalance = victory - defeat;
+        let rankedLevel = '';
+        if (victory < 10) rankedLevel = 'Iron';
+        if (victory >= 10 && victory <= 20) rankedLevel = 'Bronze';
+        if (victory >= 20 && victory <= 50) rankedLevel = 'Silver';
+        if (victory >= 50 && victory <= 80) rankedLevel = 'Gold';
+        if (victory >= 80 && victory <= 90) rankedLevel = 'Diamond';
+        if (victory >= 90 && victory <= 100) rankedLevel = 'Legendary';
+        if (victory >= 101) rankedLevel = 'Immortal';
+        return `The Hero has a balance of ${rankedBalance} and is ranked as ${rankedLevel}.`;
+    }
+    console.log(rankeada(32, 15));
 
 
 ## 📤 Expected Output
 The Hero has a balance of 17 and is ranked as Silver.
 
 
-
 Happy coding! 😉
 
----
-
-Se quiser, posso gerar a imagem ilustrativa do banner (`ranked-banner.png`) para você agora. Quer que eu crie?
 
 
